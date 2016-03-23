@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "gomabuWebsite",
+    "style": "scss",
+    "postcss": true
+  }
+}
