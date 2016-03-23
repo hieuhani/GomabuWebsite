@@ -1,16 +1,22 @@
 require('normalize.css');
 require('styles/App.css');
+require('bootstrap/dist/css/bootstrap.css');
+require('styles/animate.css');
+require('font-awesome/css/font-awesome.css');
 
 import React from 'react';
+import Header from './homepage/components/HeaderComponent';
+import About from './homepage/components/AboutComponent';
+import UserApp from './homepage/components/UserAppComponent';
 
-let yeomanImage = require('../images/yeoman.png');
 
 class AppComponent extends React.Component {
   render() {
     return (
       <div className="index">
-        <img src={yeomanImage} alt="Yeoman Generator" />
-        <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>
+        <Header />
+        <About />
+        <UserApp />
       </div>
     );
   }

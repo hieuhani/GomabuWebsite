@@ -1,0 +1,62 @@
+$primary-red-color: #c41c19;
+
+.header-component {
+  background: url("../../../images/bg1.jpg") 50% 0 no-repeat;
+  background-size: cover;
+  height: 750px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+
+  .mask-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+  }
+
+  .navbar {
+    border: 0;
+    height: 120px;
+    margin: 0!important;
+    padding: 45px 0;
+    background-color: transparent;
+
+    .navbar-header {
+      background: url("../../../images/logo.png") 0 0 no-repeat;
+
+      .navbar-brand {
+        color: #ffffff;
+        margin: 0;
+        padding-top: 18px;
+        padding-left: 65px;
+        font-size: 22px;
+      }
+    }
+    .navbar-nav {
+      > li {
+        margin-left: 15px;
+        a {
+          color: #eeeeee;
+          text-transform: uppercase;
+          font-weight: 400;
+          font-size: 12px;
+          padding: 5px 20px;
+          &:hover {
+            color: $primary-red-color;
+          }
+        }
+        &.nav-contact {
+          a {
+            background: $primary-red-color;
+            border-color: $primary-red-color;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+}

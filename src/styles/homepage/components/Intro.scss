@@ -1,0 +1,39 @@
+$primary-red-color: #c41c19;
+
+.intro-component {
+  .slogan {
+    h1 {
+      color: #eeeeee;
+      font-size: 36px;
+      line-height: 1em;
+      margin-bottom: 15px;
+      margin-top: 100px;
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #C6C6C6;
+      font-size: 16px;
+      line-height: 1.1250em;
+      padding: 25px 0;
+    }
+
+    a.btn {
+      margin-top: 10px;
+      border-radius: 4px;
+      background-color: transparent;
+      border: 2px solid $primary-red-color;
+      color: $primary-red-color;
+      padding: 15px 20px;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 400;
+
+      &:hover {
+        background-color: $primary-red-color;
+        color: #cccccc;
+        border-color: $primary-red-color;
+      }
+    }
+  }
+}
