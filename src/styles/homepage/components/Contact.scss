@@ -1,0 +1,27 @@
+.contact-component {
+  .container.contact-inner {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .contact-form {
+    padding: 20px 0;
+    input {
+      box-shadow: none;
+      color: #4E565C;
+      font-size: 12px;
+      height: 40px;
+      line-height: 1.5em;
+      padding: 0 10px;
+      width: 100%;
+    }
+    textarea {
+      height:201px;
+    }
+    input.submit {
+      background-color: #c41c19;
+      color: #ffffff;
+      font-size: 16px;
+    }
+  }
+}

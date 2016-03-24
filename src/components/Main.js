@@ -9,6 +9,7 @@ import Header from './homepage/components/HeaderComponent';
 import About from './homepage/components/AboutComponent';
 import UserApp from './homepage/components/UserAppComponent';
 import Subscribe from './homepage/components/SubscribeComponent';
+import Contact from './homepage/components/ContactComponent';
 
 
 class AppComponent extends React.Component {
@@ -19,6 +20,7 @@ class AppComponent extends React.Component {
         <About />
         <UserApp />
         <Subscribe />
+        <Contact />
       </div>
     );
   }
