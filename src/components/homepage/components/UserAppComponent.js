@@ -16,11 +16,8 @@ class UserAppComponent extends React.Component {
           <div className="row">
             <div className="heading col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
               <h2>
-                All you want from an app
+                YOUR NEW DINING EXPERIENCE
               </h2>
-              <p>
-                Lollipop unerdwear.com donut chocolate cake marshmallow.
-              </p>
               <span className="line"></span>
             </div>
           </div>
@@ -38,7 +35,7 @@ class UserAppComponent extends React.Component {
                   <div className="features-content">
                     <h5>Last minute booking</h5>
                     <p>
-                      Skip the queue and dine at your favourite busy restaurant
+                      Skip the line and dine at your favorite busy restaurant
                     </p>
                   </div>
                 </li>
@@ -63,8 +60,8 @@ class UserAppComponent extends React.Component {
                   <div className="features-content">
                     <h5>Mobile Payment</h5>
                     <p>
-                      Pay bill with your phone. Earn reward points after each payment.<br/>
-                      Share bill with your fiends
+                      Tap to pay and earn rewards with your phone.<br/>
+                      Tag friends and share bill with them
                     </p>
                   </div>
                 </li>

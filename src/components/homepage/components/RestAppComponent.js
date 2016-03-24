@@ -11,11 +11,7 @@ class RestAppComponent extends React.Component {
         <div className="container restapp-inner">
           <div className="heading col-md-12 text-center">
 
-            <h2>Restaurant Application</h2>
-
-            <p>
-              No matter if you have a question or just want to say hello, we would love to hear from you.
-            </p>
+            <h2>GROW YOUR RESTAURANT BUSINESS WITH GOMABU</h2>
             <span className="line"></span>
           </div>
           <div className="col-md-12">
@@ -23,8 +19,11 @@ class RestAppComponent extends React.Component {
               <div className="col col-md-4">
                 <i className="fa fa-money fa-5x"></i>
                 <div className="heading">
-                  <h2>Get access to new customers</h2>
-                  <p>Advertise your restaurant through Gomabu. Fill your empty seats an increase revenue</p>
+                  <h2>Increase Sales</h2>
+                  <p>
+                    Get access to more customers via our app. Reduce waiting time during peak hours. No more delays with
+                    order and payment. Increase your productivity and sales.
+                  </p>
                 </div>
               </div>
               <div className="col col-md-4">
@@ -39,8 +38,8 @@ class RestAppComponent extends React.Component {
                 <i className="fa fa-line-chart fa-5x"></i>
                 <div className="heading">
                   <h2>CRM & Analytics</h2>
-                  <p>Retain your customers and target specific groups with different offers. Gomabu provides actionable
-                  data and help you make critical decision to optimise and increase revenue</p>
+                  <p>Retain your customers and target specific groups with different offers. Detailed and actionable
+                    analytics to optimise your business and increase revenue.</p>
                 </div>
               </div>
             </div>

@@ -1,5 +1,17 @@
 $primary-red-color: #c41c19;
 
+.bg-overlay {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+  /* browsers */
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7c000000',endColorstr='#7c000000');
+  /* IE */
+}
+
 .subscribe-component {
   background-image:url(../../../images/subscribe-bg.jpg);
   background-attachment:fixed !important;
@@ -18,17 +30,7 @@ $primary-red-color: #c41c19;
       padding-bottom: 80px;
     }
 
-    .bg-overlay {
-      position:absolute;
-      top:0;
-      left:0;
-      width:100%;
-      height:100%;
-      background:rgba(0,0,0,0.6);
-      /* browsers */
-      filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7c000000',endColorstr='#7c000000');
-      /* IE */
-    }
+
 
     .contact-form {
       padding-top:20px;

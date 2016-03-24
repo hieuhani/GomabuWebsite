@@ -11,7 +11,11 @@ class FooterComponent extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-center">
-              <p>Copyright &copy; 2016 Gomabu. All Rights Reserved.</p>
+              <p>
+                Copyright &copy; 2016 Gomabu Limited. All Rights Reserved.<br/>
+                <a href="mailto:contact-us@gomabu.com">contact-us@gomabu.com</a>
+              </p>
+
             </div>
           </div>
         </div>

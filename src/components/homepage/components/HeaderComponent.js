@@ -19,9 +19,9 @@ class HeaderComponent extends React.Component {
           </Navbar.Header>
           <Nav pullRight>
             <NavItem eventKey={1} href="#about">About</NavItem>
-            <NavItem eventKey={2} href="#userapp">User Application</NavItem>
+            <NavItem eventKey={2} href="#userapp">Features</NavItem>
             <NavItem eventKey={3} href="#restapp">For Restaurant</NavItem>
-            <NavItem eventKey={4} href="#contact" className="nav-contact">Contact</NavItem>
+            <NavItem eventKey={4} href="#contact" className="nav-contact">Contact Us</NavItem>
           </Nav>
         </Navbar>
         <Intro />

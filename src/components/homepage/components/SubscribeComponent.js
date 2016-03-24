@@ -16,11 +16,13 @@ class SubscribeComponent extends React.Component {
               <div className="col-md-12 text-center">
                 <div className="title">
                   <h2>
-                    Subscribe to our updates
+                    Stay Updated
                   </h2>
                 </div>
                 <p>
-                  Subscribe to our email newsletter for useful tips and resources.
+                  We are coming soon. Drop us your email and
+                  we will let you know when our app is ready.
+                  Amazing features are on the way.
                 </p>
               </div>
             </div>

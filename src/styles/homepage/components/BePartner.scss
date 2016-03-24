@@ -1,0 +1,41 @@
+.bepartner-component {
+  background-image:url(../../../images/bepartner.jpg);
+  background-attachment:fixed !important;
+  background-size:cover;
+  -o-background-size:cover;
+  -moz-background-size:cover;
+  -webkit-background-size:cover;
+  background-repeat:repeat;
+  color:#ffffff;
+
+  .bepartner {
+    position: relative;
+    padding: 60px 0;
+
+    .description {
+      span {
+
+      }
+    }
+
+    #be-partner {
+      background-color: #FFFFFF;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+
+      input {
+        border: none;
+        box-shadow: none;
+        border-bottom: 1px solid #EEE;
+      }
+
+      button {
+        float: right;
+        width: 100%;
+        background-color: rgb(69,188,96);
+
+      }
+    }
+  }
+}

@@ -22,8 +22,8 @@ $primary-red-color: #c41c19;
       margin-top: 10px;
       border-radius: 4px;
       background-color: transparent;
-      border: 2px solid $primary-red-color;
-      color: $primary-red-color;
+      border: 2px solid #FFF;
+      color: #FFF;
       padding: 15px 20px;
       font-size: 16px;
       text-transform: uppercase;
@@ -31,7 +31,7 @@ $primary-red-color: #c41c19;
 
       &:hover {
         background-color: $primary-red-color;
-        color: #cccccc;
+        color: #ffffff;
         border-color: $primary-red-color;
       }
     }

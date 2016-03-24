@@ -11,11 +11,11 @@ class IntroComponent extends React.Component {
         <div className="container">
           <div className="row">
             <section className="slogan col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-              <h1 className="bounceIn animated">We make websites and apps that you will love to have</h1>
+              <h1 className="bounceIn animated">PLACE YOUR FOOD ORDER ON THE GO</h1>
               <p>
-                Sweet roll applicake I love I love sugar plum soufflé. Donut carrot cake danish liquorice bonbon.
+                Let your favourite restaurant know you are heading over and dishes you would like to have without waiting
               </p>
-              <a href="#subscribe" className="btn btn-default fadeInUp animated">Subscribe our updates</a>
+              <a href="#subscribe" className="btn btn-default fadeInUp animated">Stay Updated</a>
             </section>
           </div>
         </div>
