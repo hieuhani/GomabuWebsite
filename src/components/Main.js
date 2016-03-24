@@ -10,6 +10,7 @@ import About from './homepage/components/AboutComponent';
 import UserApp from './homepage/components/UserAppComponent';
 import Subscribe from './homepage/components/SubscribeComponent';
 import Contact from './homepage/components/ContactComponent';
+import Footer from './homepage/components/FooterComponent';
 
 
 class AppComponent extends React.Component {
@@ -21,6 +22,7 @@ class AppComponent extends React.Component {
         <UserApp />
         <Subscribe />
         <Contact />
+        <Footer />
       </div>
     );
   }

@@ -15,7 +15,7 @@ class IntroComponent extends React.Component {
               <p>
                 Sweet roll applicake I love I love sugar plum soufflé. Donut carrot cake danish liquorice bonbon.
               </p>
-              <a href="#" className="btn btn-default fadeInUp animated">Subscribe our updates</a>
+              <a href="#subscribe" className="btn btn-default fadeInUp animated">Subscribe our updates</a>
             </section>
           </div>
         </div>

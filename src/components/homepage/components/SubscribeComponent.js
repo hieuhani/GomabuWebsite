@@ -8,7 +8,7 @@ require('styles/homepage/components/Subscribe.scss');
 class SubscribeComponent extends React.Component {
   render() {
     return (
-      <div className="subscribe-component">
+      <div className="subscribe-component" id="subscribe">
         <div className="subscribe">
           <div className="bg-overlay"></div>
           <div className="container subscribe-inner">

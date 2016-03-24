@@ -18,10 +18,10 @@ class HeaderComponent extends React.Component {
             </Navbar.Brand>
           </Navbar.Header>
           <Nav pullRight>
-            <NavItem eventKey={1} href="#">About</NavItem>
-            <NavItem eventKey={2} href="#">User Application</NavItem>
-            <NavItem eventKey={3} href="#">For Restaurant</NavItem>
-            <NavItem eventKey={4} href="#" className="nav-contact">Contact</NavItem>
+            <NavItem eventKey={1} href="#about">About</NavItem>
+            <NavItem eventKey={2} href="#userapp">User Application</NavItem>
+            <NavItem eventKey={3} href="#restapp">For Restaurant</NavItem>
+            <NavItem eventKey={4} href="#contact" className="nav-contact">Contact</NavItem>
           </Nav>
         </Navbar>
         <Intro />

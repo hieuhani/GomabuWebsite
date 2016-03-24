@@ -7,7 +7,7 @@ require('styles/homepage/components/Contact.scss');
 class ContactComponent extends React.Component {
   render() {
     return (
-      <div className="contact-component">
+      <div className="contact-component" id="contact">
         <div className="container contact-inner">
           <div className="col-md-12 text-center">
             <div className="title">
@@ -40,7 +40,7 @@ class ContactComponent extends React.Component {
                   <textarea id="message" className="form-control" rows="9"></textarea>
                 </div>
                 <div className="col-lg-12">
-                  <input type="submit" className="btn submit" value="Submit"/>
+                  <button className="btn btn-default" type="submit">Send Now<i className="fa fa-paper-plane-o"></i></button>
                 </div>
               </form>
             </fieldset>

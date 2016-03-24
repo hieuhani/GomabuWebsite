@@ -18,10 +18,13 @@
     textarea {
       height:201px;
     }
-    input.submit {
+    button {
       background-color: #c41c19;
       color: #ffffff;
       font-size: 16px;
+      border: 0;
+      width: 100%;
+      padding: 10px 0;
     }
   }
 }

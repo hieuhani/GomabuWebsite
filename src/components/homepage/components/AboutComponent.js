@@ -7,7 +7,7 @@ require('styles/homepage/components/About.scss');
 class AboutComponent extends React.Component {
   render() {
     return (
-      <div className="about-component wrapper">
+      <div className="about-component wrapper" id="about">
         <div className="container">
           <div className="row">
 
