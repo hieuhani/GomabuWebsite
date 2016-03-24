@@ -1,28 +1,30 @@
 $primary-red-color: #c41c19;
 
+span.line {
+  background: $primary-red-color;
+  display: block;
+  height: 3px;
+  position: relative;
+  margin: 25px auto;
+  width: 150px;
+}
+
+.heading {
+  text-align: center;
+  color: #555555;
+
+  h2 {
+    font-size: 24px;
+    line-height: 1.3846em;
+    text-transform: uppercase;
+  }
+}
+
 .userapp-component {
   background: #F7F7F7;
   border-top: 1px solid #E8E8E8;
 
-  .heading {
-    text-align: center;
-    color: #555555;
 
-    span.line {
-      background: $primary-red-color;
-      display: block;
-      height: 3px;
-      position: relative;
-      margin: 25px auto;
-      width: 150px;
-    }
-
-    h2 {
-      font-size: 24px;
-      line-height: 1.3846em;
-      text-transform: uppercase;
-    }
-  }
   .userapp-features {
     margin-top: 50px;
   }

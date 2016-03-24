@@ -1,0 +1,13 @@
+.restapp-component {
+  border-top: 1px solid #E8E8E8;
+  .restapp-inner {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+
+  .restapp-features {
+    > .col {
+      text-align: center;
+    }
+  }
+}

@@ -9,14 +9,15 @@ class ContactComponent extends React.Component {
     return (
       <div className="contact-component" id="contact">
         <div className="container contact-inner">
-          <div className="col-md-12 text-center">
-            <div className="title">
-              <h2>Contact Us</h2>
-            </div>
+          <div className="heading col-md-12 text-center">
+
+            <h2>Contact Us</h2>
+
             <p>
               Want to get in touch with us?
               No matter if you have a question or just want to say hello, we would love to hear from you.
             </p>
+            <span className="line"></span>
           </div>
           <div className="col-md-12">
             <fieldset className="contact-form animate fadeInUpBig animated">
