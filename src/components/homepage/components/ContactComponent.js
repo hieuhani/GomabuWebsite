@@ -21,20 +21,20 @@ class ContactComponent extends React.Component {
               <form action="#" method="post">
                 <div className="col-md-6 col-sm-6">
                   <div className="form-group">
-                    <label for="inputName">Name</label>
+                    <label htmlFor="inputName">Name</label>
                     <input type="text" className="form-control" id="inputName"/>
                   </div>
                   <div className="form-group">
-                    <label for="inputEmail">Email</label>
+                    <label htmlFor="inputEmail">Email</label>
                     <input type="email" className="form-control" id="inputEmail"/>
                   </div>
                   <div className="form-group">
-                    <label for="inputSubject">Subject</label>
+                    <label htmlFor="inputSubject">Subject</label>
                     <input type="text" className="form-control" id="inputSubject"/>
                   </div>
                 </div>
                 <div className="col-md-6 col-sm-6">
-                  <label for="message">Message</label>
+                  <label htmlFor="message">Message</label>
                   <textarea id="message" className="form-control" rows="9"></textarea>
                 </div>
                 <div className="col-lg-12">

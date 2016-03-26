@@ -28,6 +28,13 @@ $primary-red-color: #c41c19;
     .container.subscribe-inner {
       padding-top: 60px;
       padding-bottom: 80px;
+
+      .subscribe-form-input {
+        .form-control-feedback {
+          right: 150px !important;
+          top: 15px !important;
+        }
+      }
     }
 
 
@@ -37,7 +44,14 @@ $primary-red-color: #c41c19;
 
       .form-horizontal {
         .btn-lg {
-          padding: 18px 25px;
+          padding: 16px 25px;
+        }
+
+        .init {
+          .subscribe-form-submit {
+            padding: 17px 25px;
+            top: 0;
+          }
         }
         .form-control-lg {
           font-size: 18px;
@@ -46,11 +60,13 @@ $primary-red-color: #c41c19;
           padding: 15px 25px;
         }
         .subscribe-form-submit {
+          border-bottom-right-radius: 4px;
+          border-top-right-radius: 4px;
           border-bottom-left-radius: 0;
           border-top-left-radius: 0;
           position: absolute;
           right: 0;
-          top: -1px;
+          top: 1px;
           width: 150px;
           color: #ffffff;
           background-color: $primary-red-color;
