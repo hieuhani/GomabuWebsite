@@ -28,13 +28,19 @@
     textarea {
       height:201px;
     }
+    table {
+      float: right;
+      td.spacing {
+        width: 10px;
+      }
+    }
+
     button {
       background-color: #c41c19;
       color: #ffffff;
       font-size: 16px;
       border: 0;
       width: 150px;
-      float: right;
       padding: 10px 0;
     }
   }
