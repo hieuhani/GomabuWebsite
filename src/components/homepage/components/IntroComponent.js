@@ -15,7 +15,7 @@ class IntroComponent extends React.Component {
               <p>
                 Let your favourite restaurant know you are heading over and dishes you would like to have without waiting
               </p>
-              <a href="#subscribe" className="btn btn-default fadeInUp animated">Stay Updated</a>
+              <a href="#userapp" className="btn btn-default fadeInUp animated">Get Started</a>
             </section>
           </div>
         </div>

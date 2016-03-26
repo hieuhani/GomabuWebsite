@@ -10,4 +10,23 @@
       text-align: center;
     }
   }
+  .become-partner {
+    padding-top: 40px;
+
+    .description {
+      padding-top: 40px;
+      text-align: center;
+    }
+
+    input {
+      margin-bottom: 10px;
+    }
+
+    button {
+      float: right;
+      width: 100%;
+      background-color: rgb(69,188,96);
+      color: #FFFFFF;
+    }
+  }
 }

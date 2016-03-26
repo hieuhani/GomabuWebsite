@@ -12,9 +12,25 @@
     position: relative;
     padding: 60px 0;
 
-    .description {
-      span {
+    .heading {
+      color: #EEEEEE;
+    }
+    .restapp-inner {
+      padding-top: 60px;
+      padding-bottom: 80px;
 
+
+    }
+
+    .restapp-features {
+      > .col {
+        text-align: center;
+      }
+    }
+    .become-partner {
+      padding-top: 30px;
+      .description {
+        padding-top: 40px;
       }
     }
 
@@ -34,7 +50,6 @@
         float: right;
         width: 100%;
         background-color: rgb(69,188,96);
-
       }
     }
   }
