@@ -6,7 +6,6 @@ require('font-awesome/css/font-awesome.css');
 
 import React from 'react';
 import Header from './homepage/components/HeaderComponent';
-import About from './homepage/components/AboutComponent';
 import UserApp from './homepage/components/UserAppComponent';
 import Subscribe from './homepage/components/SubscribeComponent';
 import RestApp from './homepage/components/RestAppComponent';
@@ -19,7 +18,6 @@ class AppComponent extends React.Component {
     return (
       <div className="index">
         <Header />
-        <About />
         <UserApp />
         <RestApp />
         <Subscribe />
