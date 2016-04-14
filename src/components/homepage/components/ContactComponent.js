@@ -80,7 +80,7 @@ class ContactComponent extends React.Component {
           <div className="heading col-md-12 text-center">
             <h2>Contact Us</h2>
             <p>
-              Want to get in touch with us?
+              Want to get in touch with us or simply request a demo version? Let us know by dropping your message below.
             </p>
             <span className="line"></span>
           </div>
