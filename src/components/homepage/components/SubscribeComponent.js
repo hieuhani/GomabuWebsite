@@ -39,8 +39,8 @@ class SubscribeComponent extends React.Component {
       this.setState({message: 'Please enter your email.'});
       return;
     }
-    
-    if(this.validateEmail(subscriberEmail)) {
+
+    if(!this.validateEmail(subscriberEmail)) {
       this.setState({message: 'Please enter a valid email.'});
       return;
     }
