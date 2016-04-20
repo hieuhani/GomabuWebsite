@@ -63,7 +63,7 @@ class RestAppComponent extends React.Component {
           restaurant_owner_title: '',
           restaurant_owner_phone_number: '',
           restaurant_owner_email: '',
-          notice: 'Thank you.'
+          notice: 'Thank you! We will get in touch with you shortly.'
         });
       }.bind(this),
       error: function() {

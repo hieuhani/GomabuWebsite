@@ -58,7 +58,7 @@ class ContactComponent extends React.Component {
           email: '',
           subject: '',
           message: '',
-          notice: 'Thank you.'
+          notice: 'Thank you! We will get in touch with you shortly.'
         });
       }.bind(this),
       error: function() {
