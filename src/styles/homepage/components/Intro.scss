@@ -2,13 +2,12 @@ $primary-red-color: #c41c19;
 
 .intro-component {
   .slogan {
-    h1 {
+    h3 {
       color: #eeeeee;
-      font-size: 36px;
-      line-height: 1em;
-      margin-bottom: 15px;
+      font-size: 22px;
+      line-height: 1.4em;
+      margin-bottom: 25px;
       margin-top: 100px;
-      text-transform: uppercase;
     }
 
     p {
@@ -34,6 +33,14 @@ $primary-red-color: #c41c19;
         color: #ffffff;
         border-color: $primary-red-color;
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-component {
+    ul.navbar-nav {
+      display: none;
     }
   }
 }

@@ -10,11 +10,14 @@ class HeaderComponent extends React.Component {
   render() {
     return (
       <div id="header" className="header-component">
-        <span className="mask-overlay"></span>
+        <span className="mask-overlay" />
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#">Gomabu</a>
+              <a href="#">
+                <img src={require('../../../images/logo.png')} alt="Gomabu"/>{' '}
+                Gomabu
+              </a>
             </Navbar.Brand>
           </Navbar.Header>
           <Nav pullRight>

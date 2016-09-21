@@ -47,7 +47,7 @@ class ContactComponent extends React.Component {
     };
 
     jQuery.ajax({
-      url: 'https://coremabu.appspot.com/api/v1/gomabu/contact_us',
+      url: 'https://prod-coremabu.appspot.com/api/v1/gomabu/contact_us',
       dataType: 'json',
       type: 'post',
       data: JSON.stringify(formData),
@@ -80,9 +80,9 @@ class ContactComponent extends React.Component {
           <div className="heading col-md-12 text-center">
             <h2>Contact Us</h2>
             <p>
-              Want to get in touch with us or simply request a demo version? Let us know by dropping your message below.
+              Want to get in touch with us? Let us know by dropping your message below.
             </p>
-            <span className="line"></span>
+            <span className="line" />
           </div>
           <div className="col-md-12">
             <fieldset className="contact-form animate fadeInUpBig animated">
@@ -122,26 +122,23 @@ class ContactComponent extends React.Component {
                             className="form-control"
                             rows="9"
                             value={this.state.message}
-                            onChange={this.handleChange.bind(this, 'message')}
-                  ></textarea>
+                            onChange={this.handleChange.bind(this, 'message')} />
                 </div>
                 <div className="col-lg-12">
                   <table>
                     <tbody>
                       <tr>
                         <td>{this.state.notice}</td>
-                        <td className="spacing"></td>
+                        <td className="spacing"/>
                         <td>
                           <button className="btn btn-default"
                                   type="submit"
                                   onSubmit={this.handleSubmit}
-                          >Send Now <i className="fa fa-paper-plane-o"></i></button>
+                          >Send Now <i className="fa fa-paper-plane-o" /></button>
                         </td>
                       </tr>
                     </tbody>
-
                   </table>
-
                 </div>
               </form>
             </fieldset>

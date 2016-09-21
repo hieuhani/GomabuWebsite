@@ -26,14 +26,19 @@ $primary-red-color: #c41c19;
     background-color: transparent;
 
     .navbar-header {
-      background: url("../../../images/logo.png") 0 0 no-repeat;
+      //background: url("../../../images/logo.png") 0 0 no-repeat;
 
       .navbar-brand {
         color: #ffffff;
         margin: 0;
         padding-top: 18px;
-        padding-left: 65px;
         font-size: 22px;
+        line-height: 50px;
+
+        img {
+          float: left;
+          padding-right: 10px;
+        }
       }
     }
     .navbar-nav {

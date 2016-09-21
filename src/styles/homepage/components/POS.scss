@@ -1,0 +1,49 @@
+$primary-red-color: #c41c19;
+
+span.line {
+  background: $primary-red-color;
+  display: block;
+  height: 3px;
+  position: relative;
+  margin: 25px auto;
+  width: 150px;
+}
+
+.pos-component {
+  .heading {
+    text-align: center;
+  }
+  .icon-download {
+    text-align: center;
+  }
+  .screenshots {
+    .carousel {
+      .item {
+        img {
+          border: 1px solid #CCC;
+          border-radius: 2px;
+          padding: 2px;
+        }
+      }
+    }
+  }
+  .pos-features {
+
+    padding: 20px 0;
+
+    .features-list {
+      list-style: none;
+      .features-content {
+        &:before {
+          content: "\e080";
+          font-family: 'Glyphicons Halflings';
+          font-size: 9px;
+          float: left;
+          margin-top: 4px;
+          margin-left: -17px;
+          color: #CCCCCC;
+        }
+      }
+    }
+  }
+}

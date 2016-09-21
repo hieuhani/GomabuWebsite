@@ -11,11 +11,12 @@ class IntroComponent extends React.Component {
         <div className="container">
           <div className="row">
             <section className="slogan col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-              <h1 className="bounceIn animated">PLACE YOUR FOOD ORDER ON THE GO</h1>
-              <p>
-                Let your favourite restaurant know you are heading over and dishes you would like to have without waiting
-              </p>
-              <a href="#userapp" className="btn btn-default fadeInUp animated">Get Started</a>
+              <h3 className="bounceIn animated">
+                A compact IPad-based POS system specialised for running and growing restaurants
+              </h3>
+              <a href="https://itunes.apple.com/us/app/gomabu-pos/id1154600186?ls=1&mt=8" className="fadeInUp animated">
+                <img src={require('../../../images/appstore.png')} alt="Download on Appstore"/>
+              </a>
             </section>
           </div>
         </div>

@@ -50,7 +50,7 @@ class SubscribeComponent extends React.Component {
     };
 
     jQuery.ajax({
-      url: 'https://coremabu.appspot.com/api/v1/gomabu/user_subscriber',
+      url: 'https://prod-coremabu.appspot.com/api/v1/gomabu/user_subscriber',
       dataType: 'json',
       type: 'post',
       data: JSON.stringify(user_email),
@@ -79,9 +79,7 @@ class SubscribeComponent extends React.Component {
                   </h2>
                 </div>
                 <p>
-                  We are coming soon. Drop us your email and
-                  we will let you know when our app is ready.
-                  Amazing features are on the way.
+                  Subscribe to our newsletter
                 </p>
               </div>
             </div>
@@ -96,7 +94,7 @@ class SubscribeComponent extends React.Component {
                              value={this.state.subscriberEmail}
                              onChange={this.handleChange}
                       />
-                      <span className="glyphicon glyphicon glyphicon-remove form-control-feedback"></span>
+                      <span className="glyphicon glyphicon glyphicon-remove form-control-feedback"/>
                       <button className="subscribe-form-submit btn bg-inverse btn-lg">Subscribe</button>
                     </div>
 
