@@ -1,4 +1,4 @@
-$primary-red-color: #c41c19;
+$primary-red-color: #C0392B;
 
 .intro-component {
   .slogan {
@@ -41,6 +41,36 @@ $primary-red-color: #c41c19;
   .header-component {
     ul.navbar-nav {
       display: none;
+    }
+
+    .navbar-header {
+      width: 100%;
+      .navbar-brand {
+        text-align: center;
+        float: none;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .contact-component {
+    .contact-form {
+      table {
+        button {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .pos-component {
+    .features {
+      padding: 0 50px;
     }
   }
 }

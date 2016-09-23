@@ -1,4 +1,4 @@
-$primary-red-color: #c41c19;
+$primary-red-color: #C0392B;
 
 span.line {
   background: $primary-red-color;
@@ -10,6 +10,7 @@ span.line {
 }
 
 .pos-component {
+  margin-bottom: 40px;
   .heading {
     text-align: center;
   }
@@ -34,16 +35,31 @@ span.line {
     .features-list {
       list-style: none;
       .features-content {
+
+      }
+    }
+  }
+
+  .features {
+    padding: 0 30px;
+    .list {
+      li {
+        font-size: 18px;
+        padding: 6px 0;
         &:before {
-          content: "\e080";
+          content: "\e067";
           font-family: 'Glyphicons Halflings';
-          font-size: 9px;
+          font-size: 18px;
+          padding-right: 12px;
           float: left;
-          margin-top: 4px;
-          margin-left: -17px;
-          color: #CCCCCC;
+          margin-left: -20px;
+          color: #26AA5B;
         }
       }
+    }
+
+    .icon-download {
+      margin-top: 20px;
     }
   }
 }
